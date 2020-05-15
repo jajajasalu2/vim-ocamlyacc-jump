@@ -7,7 +7,7 @@ A little function I use to jump to a rule in OCamlYacc.
 Bind it however :)
 
 ```
-nnoremap <binding> :call VimOCamlYacc()<cr>
+nnoremap <binding> :call VimOCamlYaccJump()<cr>
 ```
 
 and just call the binding with your cursor on the rule name.
